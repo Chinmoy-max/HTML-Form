@@ -1,0 +1,39 @@
+<h2>Select Items</h2>
+<style>
+*{
+  text-align:center;
+  margin:20px 20px;
+}
+  
+#submit{
+  color:white;
+  background:black;
+}
+
+h2{
+  font-size:40px;
+}
+p{
+  font-weight:bold;
+  color:yellow;
+  background-color:red;
+}</style>
+<p>Dropdown List</p>
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Cars Choice:</legend>
+    <label for='cars'>Choose a Car:</label>
+    <select id="cars" name="cars">
+      <option value="volvo">Volvo</option>
+      <option value="fiat">Fiat</option>
+      <option value="ford">Ford</option>
+      <option value="zook">Zook</option>
+    </select><br>
+    <label id="select" for="files">Select File:</label>
+    <input id="files" type="file" id="file" name="files" required><br>
+    <input id="submit" type="submit" value="Submit">
+  </fieldset>
+</form>
+
+
+
